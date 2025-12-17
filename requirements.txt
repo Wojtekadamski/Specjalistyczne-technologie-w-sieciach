@@ -1,0 +1,7 @@
+cvxpy
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+scipy
