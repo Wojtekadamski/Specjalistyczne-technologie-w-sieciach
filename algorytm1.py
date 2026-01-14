@@ -2,9 +2,6 @@ import numpy as np
 import copy
 
 class WeiCloudProject:
-    # Algorytm alokacji zasobów wg Wei et al. (2010)
-    # Obsługuje SPELR i GELR przy multiplexingu
-    
     def __init__(self, prices, exec_times, subtasks_count, wt=0.5, we=0.5):
         # dane wejściowe z modelu
         self.PRICES = np.array(prices)

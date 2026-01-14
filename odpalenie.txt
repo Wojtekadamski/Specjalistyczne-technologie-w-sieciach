@@ -2,5 +2,5 @@ docker build -t cloud-sim .
 
 docker run --rm -v ${PWD}/results:/app/results cloud-sim
 
-docker run --rm -v ${PWD}/results:/app/results cloud-sim python algorytm_global_2.py --multiplier 1.5 --min_req 1 --max_req 100
-docker run --rm -v ${PWD}/results:/app/results cloud-sim python algorytm_global_2.py --multiplier 1.2 --users 100 --iter 50 
+docker run --rm -v "${PWD}/results":/app/results cloud-sim python algorytm_global_2.py --multiplier 1.8 --min_req 1 --max_req 100
+docker run --rm -v "${PWD}/results":/app/results cloud-sim python algorytm_global_2.py --multiplier 1.2 --users 100 --iter 50 
